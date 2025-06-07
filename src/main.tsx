@@ -3,12 +3,11 @@ import {createRoot} from 'react-dom/client'
 import {
     createBrowserRouter,
     RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"
 import "bulma/css/bulma.min.css"
-import Layout from "./components/layout";
+import Layout from "./components/layout"
 import IndexPage from "../entries/index.mdx"
 import AboutPage from "../entries/about.mdx"
-
 
 const router = createBrowserRouter([
     {
